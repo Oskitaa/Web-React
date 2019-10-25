@@ -19,7 +19,7 @@ export default class MyApp extends App {
     return (
       <div>
         <Head>
-          <title>Alejandro Pacheco</title>
+          <title>Oscar Carballar</title>
           <link rel="manifest" href="/static/manifest.json" />
           <meta name="theme-color" content="#FFFFFF" />
           <meta name="description" content="content" />

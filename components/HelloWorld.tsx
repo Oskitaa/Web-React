@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const HelloWorld = ({}) => <div>Hello World</div>;
+export const HelloWorld = ({}) => <div>New page</div>;
 
 export default HelloWorld;

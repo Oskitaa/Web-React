@@ -1,10 +1,10 @@
 import '../css/index.scss';
-import HelloWorld from '../components/HelloWorld';
+import Working from '../components/Working';
 
 const Index = () => {
   return (
     <div className="page">
-      <HelloWorld />
+      <Working />
 
       <style jsx>{`
         .page {

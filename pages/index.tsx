@@ -1,15 +1,12 @@
 import '../css/index.scss';
-import Working from '../components/Working';
+import Menu from '../components/Menu';
 
 const Index = () => {
   return (
     <div className="page">
-      <Working />
-
+      <Menu />
       <style jsx>{`
         .page {
-          margin-top: 10vh;
-          font-family: monospace;
           text-align: center;
         }
       `}</style>

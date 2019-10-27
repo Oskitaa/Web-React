@@ -12,7 +12,6 @@ export const Logo = ({}) => (
           margin: auto;
           flex: 1;
           flex-shrink: 0;
-          font-size: 18pt;
           z-index: 3;
         }
 

@@ -23,7 +23,7 @@ export const Menu = ({}) => (
       }
 
       .menu {
-        z-index: 3;
+        z-index: 1;
         background-color: #212529;
         height: 80px;
         position: fixed;

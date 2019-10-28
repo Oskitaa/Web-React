@@ -1,10 +1,11 @@
 import React from 'react';
+import LinkButton from './LinkButton';
 
 export const Logo = ({}) => (
   <div className="logo">
-    <a href="home">
+    <LinkButton url="https://www.blog.xsaun.com">
       <img src="/static/img/logo.png" alt="" />
-    </a>
+    </LinkButton>
     <style jsx>
       {`
         .logo {

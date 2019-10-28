@@ -1,18 +1,19 @@
 import React from 'react';
 import Logo from './Logo';
+import LinkButton from './LinkButton';
 
 export const Menu = ({}) => (
-  <div className="">
+  <div>
     <div className="menu">
       <Logo />
       <div className=" textmenu">
-        <a href="#home">Inicio</a>
+        <LinkButton url="https://www.blog.xsaun.com">Inicio</LinkButton>
       </div>
       <div className="textmenu">
-        <a href="#aboutme">Sobre mi</a>
+        <LinkButton url="/aboutme">Sobre mi</LinkButton>
       </div>
       <div className="textmenu">
-        <a href="#contact">Contacto</a>
+        <LinkButton url="#contact">Contacto</LinkButton>
       </div>
     </div>
 
@@ -30,12 +31,6 @@ export const Menu = ({}) => (
         width: 100%;
         display: flex;
         box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.27);
-      }
-
-      .menu a {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
       }
     `}</style>
   </div>

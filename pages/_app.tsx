@@ -19,10 +19,15 @@ export default class MyApp extends App {
     return (
       <div>
         <Head>
-          <title>Oscar Carballar</title>
+          <title>Personal Web Page</title>
           <link rel="manifest" href="/static/manifest.json" />
           <meta name="theme-color" content="#FFFFFF" />
           <meta name="description" content="content" />
+          <link
+            rel="shortcut icon"
+            type="image/png"
+            href="https://raw.githubusercontent.com/Oskitaa/Web/master/img/logo.png"
+          />
         </Head>
         <Component {...pageProps} />
       </div>

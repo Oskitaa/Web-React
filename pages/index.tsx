@@ -1,6 +1,5 @@
 import '../css/index.scss';
 import Menu from '../components/Menu';
-import Aboutme from '../components/Aboutme';
 import Home from '../components/Home';
 import Footer from '../components/Footer';
 import Contact from '../components/Contact';
@@ -10,7 +9,7 @@ const Index = () => {
     <div className="page">
       <Menu />
       <Home />
-      <Aboutme />
+
       <Contact />
       <Footer />
       <style jsx>{`

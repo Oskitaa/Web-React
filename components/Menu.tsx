@@ -23,6 +23,8 @@ export const Menu = ({}) => (
         flex: 2;
       }
 
+
+
       .menu {
         z-index: 1;
         background-color: #212529;

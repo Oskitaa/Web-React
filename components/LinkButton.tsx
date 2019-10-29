@@ -25,14 +25,14 @@ const ChooseLink: React.FC<{ url: string; as?: string }> = ({
         <style jsx>{`
           a {
             text-decoration: none;
-            color: white;
+            color: black;
             font-size: 15px;
           }
           a:hover {
-            color: white !important;
+            color: black !important;
           }
           a:visited {
-            color: white;
+            color: black;
           }
         `}</style>
       </>

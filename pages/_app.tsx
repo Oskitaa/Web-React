@@ -26,7 +26,7 @@ export default class MyApp extends App {
           <link
             rel="shortcut icon"
             type="image/png"
-            href="https://raw.githubusercontent.com/Oskitaa/Web/master/img/logo.png"
+            href="/static/img/logo.png"
           />
         </Head>
         <Component {...pageProps} />
